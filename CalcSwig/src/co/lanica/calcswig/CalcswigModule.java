@@ -32,6 +32,7 @@ public class CalcswigModule extends KrollModule
 		
 		super();
 		Log.d(TAG, "CalcswigModule constructor");
+//		System.loadLibrary("chipmunk");
 		System.loadLibrary("CalcSwig");
 		//System.loadLibrary("co.lanica.calcswig");
 
@@ -48,6 +49,7 @@ public class CalcswigModule extends KrollModule
 //		initializeSwig();
 	}
 
+/*
 	// Methods
 	@Kroll.method
 	public String example()
@@ -162,7 +164,7 @@ public class CalcswigModule extends KrollModule
 	public void setPropStr(String string)
 	{
 	}
-
+*/
 
 
 }
